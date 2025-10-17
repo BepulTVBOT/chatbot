@@ -79,7 +79,7 @@ async def start_handler(message: types.Message):
         f"👋 Salom, *{message.from_user.first_name or 'foydalanuvchi'}!* \n"
         "Men AI yordamchisiman. Menga savolingizni matn shaklida yozing!\n\n"
         "💡 *Eslatma:* Men avvalgi xabarlaringizni eslayman va kontekstni tushunaman.\n"
-        "🔄 Yangi suhbat boshlash uchun /clear buyrug'ini yuboring."
+        "🔄 Yangi suhbat boshlash uchun /clear buyrug'ini yuboring. Creator bot: @Tamerkhan"
     )
 
 
@@ -183,3 +183,4 @@ if __name__ == "__main__":
     if sys.platform.startswith("win"):
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
+
